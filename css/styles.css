@@ -183,7 +183,7 @@ a:hover {
 
   h1 {
     position: relative;
-    top: 157px;
+    top: 100px;
     font-size: 60px;
   }
 
@@ -193,7 +193,7 @@ a:hover {
     font-size: 1.5rem;
     font-weight: normal;
     position: relative;
-    top: 130px;
+    top: 73px;
   }
 
   .top-container {
@@ -206,7 +206,7 @@ a:hover {
     width: 51px;
     position: absolute;
     right: 120px;
-    top: 125xpx;
+    top: 68px;
   }
 
   .top-cloud {
@@ -214,7 +214,7 @@ a:hover {
     width: 75px;
     position: absolute;
     right: 250px;
-    top: 225px;
+    top: 168px;
   }
 
   .bottom-cloud {
@@ -222,7 +222,7 @@ a:hover {
     width: 105px;
     position: absolute;
     left: 220px;
-    top: 500px;
+    top: 443px;
   }
 
   .mountain {
