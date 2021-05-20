@@ -1,0 +1,290 @@
+body {
+  color: #40514E;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+
+}
+
+p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #eee;
+  border-width: 7px;
+  width: 6%;
+  margin: 100px auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+  width: 75%;
+  align-items: center;
+}
+
+.profile-img {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 100%;
+  text-align: left;
+  line-height: 2;
+}
+
+.gd-img {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.wd-img {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+  .top-cloud-1 {
+    display: none;
+  }
+
+.top-cloud {
+  height: 48px;
+  width: 150px;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  height: 48px;
+  width: 150px;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.btn {
+  background: #66BFBF;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #59A5A3 1px;
+  background: #59A5A3;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  width: 75%;
+}
+
+.hello {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skills {
+  width: 75%;
+  margin: 100px auto;
+}
+
+.well-rounded {
+  font-weight: 600;
+  margin: 0 auto 25px auto;
+}
+
+.send-message {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #eee;
+}
+
+.copywrite {
+  color: #eee;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+@media (max-width: 375px) {
+
+  h1 {
+    position: relative;
+    top: 187px;
+    font-size: 60px;
+  }
+
+  .subtitle {
+    color: #66BFBF;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    position: relative;
+    top: 160px;
+  }
+
+  .top-container {
+    height: 710px;
+  }
+
+  .top-cloud-1 {
+    height: 16px;
+    width: 51px;
+    position: absolute;
+    right: 120px;
+    top: 120px;
+  }
+
+  .top-cloud {
+    height: 24px;
+    width: 75px;
+    position: absolute;
+    right: 250px;
+    top: 250px;
+  }
+
+  .bottom-cloud {
+    height: 34px;
+    width: 105px;
+    position: absolute;
+    left: 220px;
+    top: 550px;
+  }
+
+  .mountain {
+    position: relative;
+    top: 265px;
+    width: 100%;
+  }
+
+  .middle-container {
+    width: 100%;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .skill-row {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .gd-img {
+    float: none;
+    margin: auto;
+  }
+
+  .wd-img {
+    float: none;
+    margin: auto;
+  }
+
+  .contact-me {
+    width: 100%;
+  }
+
+  .well-rounded {
+    width: 75%;
+  }
+
+  .send-message {
+    width: 75%;
+  }
+
+  .bottom-container {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .footer-link {
+    position: relative;
+    top: 40px;
+  }
+
+  .copywrite {
+    position: relative;
+    top: 20px;
+  }
+
+  hr {
+    margin-top: 100px;
+    width: 10%;
+  }
+
+  .copywrite {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+}
